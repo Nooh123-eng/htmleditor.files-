@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Html editor</title>
+        </head>
+    <body>
+      <textarea id="code-typer" style="
+            min-width:45%;
+            min-height:100%;
+            max-width:45%;
+            max-height:265px;
+            width:45px;
+            height:265px;
+            border-color:black;
+            padding:5px;
+            border-radius:15px;
+        ">
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <!--Type HTML code here-->
+    </body>
+</html>
+
+      </textarea>
+          <div id="code-display" style="
+            position:fixed;
+            width:250px;
+            height:270px;
+            top:80px;
+            left:300px;
+            overflow:auto;"></div>
+    <br>
+    <button onclick="updateFunction();" id="update-bt">Update</button>
+    <button id="save-bt" onclick="saveFunction();">View</button>
+    <div id="view-div">
+        <div id="show"></div>
+        <button id="back-bt" onclick="back();">Back</button>
+    </div>
+
+    </body>
+</html>

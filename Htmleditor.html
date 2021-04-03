@@ -1,0 +1,11 @@
+var updateFunction = function(){
+            var coder = document.getElementById("code-typer").value;
+            document.getElementById("code-display").innerHTML = coder;
+        };
+        var saveFunction = function(){
+            document.getElementById("show").innerHTML = document.getElementById("code-typer").value;
+        document.getElementById("view-div").style.display = "block"
+        };
+        var back = function(){
+            document.getElementById("view-div").style.display = "none";
+        };
